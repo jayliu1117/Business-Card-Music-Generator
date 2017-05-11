@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="5dp"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    android:paddingTop="5dp"
+    tools:context="com.example.christopher.Business_Card_Music_Generator.MainActivity">
+
+    <Button
+        android:text="Begin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Bbegin"
+        android:layout_alignBottom="@+id/ViewOrigin"
+        android:layout_alignParentEnd="true"
+        android:layout_gravity="bottom|center_horizontal"
+        android:onClick="capture (MainActivity)" />
+
+    <TextView
+        android:text="              Welcome to Musical Business Cards.\n
+        Start making beautiful music in aa few easy steps\n\n
+
+    1. Draw red, green, blue, and black lines on a\n
+    2in x 3.5in business card\n
+    2. Place the card within the frame of the camera view\n
+    and take a picture\n
+    3. Verify the picture\n
+    4. Press the 'Process' button to listen to some\n
+    business card jams"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|center_horizontal"
+        android:id="@+id/description" />
+
+    <TextView
+        android:text=""
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/Res" />
+
+</FrameLayout>
